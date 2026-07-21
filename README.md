@@ -206,6 +206,8 @@ Bilgi tabanı, Azure konularını içeren soru-cevap çiftlerinden oluşturulmu�
 
 İlk çalıştırmada `ingest.py` dosyası kullanılarak tüm dökümanlar embedding'e dönüştürülür ve SQLite veritabanına kaydedilir.
 
+> **Not:** Projede örnek olarak oluşturulmuş `rag.db` dosyası hazır şekilde paylaşılmıştır. Böylece uygulama doğrudan çalıştırılabilir. Veritabanını yeniden oluşturmak isteyen kullanıcılar `ingest_data()` fonksiyonunu etkinleştirerek `python src/main.py` komutunu çalıştırabilir.
+
 ---
 
 ## Geliştirilebilecek Özellikler
