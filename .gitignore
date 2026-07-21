@@ -4,8 +4,6 @@ __pycache__/
 .venv/
 venv/
 
-rag.db
-
 models/
 
 .env
