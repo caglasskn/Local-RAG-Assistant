@@ -70,6 +70,9 @@ LocalRAG/
 ├── data/
 │   └── azure_questions.json
 │
+├── database/
+│   └── rag.db
+│
 ├── models/
 │   └── bge-m3/
 │
@@ -136,7 +139,7 @@ Projeyi çalıştırmadan önce aşağıdaki bileşenlerin kurulu olması gereki
 ### 1. Projeyi klonlayın.
 
 ```bash
-git clone https://github.com/kullaniciadi/LocalRAG.git
+git clone https://github.com/caglasskn/Local-RAG-Assistant.git
 ```
 
 ### 2. Proje klasörüne girin.
