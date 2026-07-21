@@ -5,16 +5,16 @@ Bu dosya terminal üzerinden hızlı test yapmak amacıyla hazırlanmıştır.
 Asıl kullanıcı arayüzü Streamlit (app.py) üzerinden çalıştırılmaktadır.
 """
 
-from database import create_table
-from ingest import ingest_data
-from generator import generate_answer
+from src.database import create_table
+from src.ingest import ingest_data
+from src.generator import generate_answer
 
 # Veritabanı ve gerekli tablo oluşturulur.
 create_table()
 
 # İlk çalıştırmada veriler veritabanına yüklenir.
 # Veri yüklendikten sonra tekrar çalıştırılmaması için yoruma alınabilir.
-# ingest_data()
+ingest_data()
 
 if __name__ == "__main__":
     """
