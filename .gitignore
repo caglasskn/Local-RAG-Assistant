@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+rag.db
+
+models/
+
+.env
+
+.vscode/
+
+.idea/

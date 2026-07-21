@@ -1,0 +1,325 @@
+{
+  "azure_kapsamli_soru_bankasi": {
+    "1_genel_bakis_ve_tarihce": [
+      {
+        "id": 1,
+        "soru": "Microsoft Azure hangi yılda piyasaya sürülmüştür?",
+        "cevap": "2010 yılında piyasaya sürülmüştür."
+      },
+      {
+        "id": 2,
+        "soru": "Azure'un piyasaya sürülmesi yerinde (on-premise) veri merkezleri açısından neyi değiştirmiştir?",
+        "cevap": "Yerinde altyapıyı sürdürmek için harcanan zamanı ve bunun getirdiği maliyetleri azaltmıştır."
+      },
+      {
+        "id": 3,
+        "soru": "Azure küresel veri merkezi ağında toplam kaçtan fazla ürün ve hizmet sunmaktadır?",
+        "cevap": "200'den fazla ürün ve hizmet sunmaktadır."
+      },
+      {
+        "id": 4,
+        "soru": "Metne göre Azure kaç bölgede ve kaçın üzerinde yüksek güvenlikli veri merkezine sahiptir?",
+        "cevap": "70'den fazla bölgede 400'den fazla (veya metindeki alternatif kısımda belirtildiği üzere 60'tan fazla bölgede 300'ün üzerinde) veri merkezine sahiptir."
+      },
+      {
+        "id": 5,
+        "soru": "Fortune 500 şirketlerinin yüzde kaçı iş yükleri için Azure'a güvenmektedir?",
+        "cevap": "Fortune 500 şirketlerinin %95'i Azure'a güvenmektedir."
+      },
+      {
+        "id": 6,
+        "soru": "Azure küresel ağının düşük gecikme süresi sunmasının işletmeler için temel avantajı nedir?",
+        "cevap": "Uygulamaları müşterilere ve çalışanlara daha yakın dağıtarak daha hızlı, daha duyarlı ve güvenilir deneyimler sunmasıdır."
+      },
+      {
+        "id": 7,
+        "soru": "Azure'un desteklediği görev açısından kritik ve büyük ölçekli kurumsal uygulamalara hangi örnekler verilmiştir?",
+        "cevap": "SAP, Databricks ve VMware örnek verilmiştir."
+      },
+      {
+        "id": 8,
+        "soru": "Müşterilerin bulut benimseme sürecinde doğru Azure çözümlerini seçmesi için Microsoft ne tür bir destek mekanizması sunar?",
+        "cevap": "Sektör bilgisine ve uzmanlığa sahip geniş bir 'Azure İş Ortağı Ağı' sunar."
+      },
+      {
+        "id": 9,
+        "soru": "Microsoft Azure nedir?",
+        "cevap": "Microsoft tarafından geliştirilenm bulut bilişim platformudur."
+      }
+    ],
+    "2_yapay_zeka_ve_islem_gucu": [
+      {
+        "id": 10,
+        "soru": "Azure Yapay Zeka Atölyesi (Azure AI Studio) kuruluşlara ne tür bir platform sağlar?",
+        "cevap": "Yapay zeka uygulamalarını verimli ve uygun maliyetli şekilde tasarlamak ve ölçeklendirmek için modeller, araçlar, güvenlik ve izleme özellikleri içeren uçtan uca bir platform sağlar."
+      },
+      {
+        "id": 11,
+        "soru": "Azure Yapay Zeka Atölyesi kapsamında toplam kaçtan fazla model sunulmaktadır?",
+        "cevap": "11.000'den fazla model sunulmaktadır."
+      },
+      {
+        "id": 12,
+        "soru": "Azure Yapay Zeka Atölyesi model kataloğunda hangi model türleri ve aileleri yer alır?",
+        "cevap": "Açık ve sınır modeller, OpenAI'ın en son yenilikleri, büyük dil modelleri ve Microsoft Phi ailesine ait küçük dil modelleri yer alır."
+      },
+      {
+        "id": 13,
+        "soru": "Azure Yapay Zeka Atölyesi hangi popüler geliştirici araçlarıyla entegre çalışır?",
+        "cevap": "GitHub, Visual Studio ve Microsoft Copilot Studio ile entegre çalışır."
+      },
+      {
+        "id": 14,
+        "soru": "Azure'un yapay zeka altyapısı hangi küresel yapay zeka devinin özel bulut sağlayıcısı olarak hizmet vermektedir?",
+        "cevap": "OpenAI firmasının özel bulut sağlayıcısıdır."
+      },
+      {
+        "id": 15,
+        "soru": "Azure Yapay Zeka altyapısında kullanılan donanımsal yapay zeka hızlandırıcı (silikon) markaları nelerdir?",
+        "cevap": "AMD, NVIDIA ve Microsoft Maia yapay zeka hızlandırıcılarıdır."
+      },
+      {
+        "id": 16,
+        "soru": "Geliştiricilerin doğrudan yapay zeka veya veri bilimi uzmanlığı olmadan yapay zeka uygulamaları geliştirmesini sağlayan portföy hangisidir?",
+        "cevap": "Azure Yapay Zeka (Azure AI) kapsamındaki bulut tabanlı hazır servisler ve araçlar portföyüdür."
+      },
+      {
+        "id": 17,
+        "soru": "Microsoft'un yapay zeka geliştirme süreçlerinde rehber edindiği etik çerçevenin adı nedir?",
+        "cevap": "Microsoft Sorumlu Yapay Zeka Standardı."
+      },
+      {
+        "id": 18,
+        "soru": "Ar-Ge'nin yeni çağını desteklemek üzere sunulan kurumsal aracılı yapay zeka çözümünün adı nedir?",
+        "cevap": "Microsoft Discovery."
+      },
+      {
+        "id": 19,
+        "soru": "Azure'da makine öğrenmesi modellerini daha hızlı oluşturmak için hangi popüler açık kaynak topluluk platformuyla iş birliği sunulur?",
+        "cevap": "Hugging Face (Azure'da Hugging Face çözümü)."
+      }
+    ],
+    "3_acik_kaynak_ve_uygulama_gelistirme": [
+      {
+        "id": 20,
+        "soru": "Azure müşteri çekirdeklerinin (compute cores) yüzde kaçından fazlası Linux üzerinde çalışmaktadır?",
+        "cevap": "%60'ından fazlası Linux üzerinde çalışmaktadır."
+      },
+      {
+        "id": 21,
+        "soru": "Azure'un desteklediği popüler açık kaynaklı veritabanı ve veri teknolojileri nelerdir?",
+        "cevap": "PostgreSQL, MySQL, Redis, Apache Cassandra ve MongoDB."
+      },
+      {
+        "id": 22,
+        "soru": "Metinde bahsedilen Azure açık kaynak iş birliği ortakları ve ekosistemleri hangileridir?",
+        "cevap": "GitHub, Canonical, Red Hat, Databricks, Hashicorp, Redis ve SUSE."
+      },
+      {
+        "id": 23,
+        "soru": "Azure'da uygulama geliştirmeyi, kod oluşturmayı ve dağıtımı kolaylaştıran Microsoft araçları hangileridir?",
+        "cevap": "GitHub, Visual Studio ve Azure DevOps."
+      },
+      {
+        "id": 24,
+        "soru": "Geliştiricilerin yeni nesil uygulamaları verimli oluşturması için sağlanan yerleşik operasyonel kolaylıklar nelerdir?",
+        "cevap": "Yerleşik hazırlama (staging), otomatik güvenlik yamaları ve sürekli tümleştirme (CI/CD)."
+      },
+      {
+        "id": 25,
+        "soru": "Bir SaaS modeline daha hızlı geçiş yapmak isteyen geliştiriciler için sunulan kod ve şablon setinin adı nedir?",
+        "cevap": "Azure SaaS Geliştirme Seti."
+      },
+      {
+        "id": 26,
+        "soru": "Fikirlerin kodlama yoğunluğu olmadan hızlıca uygulamaya dönüştürülmesini sağlayan yaklaşım nedir?",
+        "cevap": "Azure'da düşük kodlu (low-code) uygulama geliştirme."
+      },
+      {
+        "id": 27,
+        "soru": "Oyun üretim süreçlerini ve işlem hatlarını kolaylaştırmak için sunulan özel çözüm grubu hangisidir?",
+        "cevap": "Oyun işlem hattı için Azure (Azure for Gaming Pipelines)."
+      },
+      {
+        "id": 28,
+        "soru": "Modern uygulamaları Azure üzerinde birbirine bağlamak için kullanılan kapsamlı hizmet kümesi hangisidir?",
+        "cevap": "Azure üzerinde Mesajlaşma Hizmetleri."
+      }
+    ],
+    "4_bulut_bilisim_tanimi_ve_avantajlari": [
+      {
+        "id": 29,
+        "soru": "Genel tanımıyla bulut bilişim nedir?",
+        "cevap": "Sunucu, depolama, veritabanı, ağ, yazılım gibi bilgi işlem kaynaklarının internet ('bulut') üzerinden esnek ve ekonomik şekilde sağlanmasıdır."
+      },
+      {
+        "id": 30,
+        "soru": "Bulut bilişimin 'Maliyet' avantajı şirket içi veri merkezlerindeki hangi harcamaları ortadan kaldırır?",
+        "cevap": "Donanım/yazılım satın alma, sunucu rafları, güç, soğutma ve altyapıyı yönetecek BT uzmanlarının yatırım giderlerini ortadan kaldırır."
+      },
+      {
+        "id": 31,
+        "soru": "Bulut bilişimin 'Hız' avantajı ne anlama gelir?",
+        "cevap": "Çok büyük çaptaki bilgi işlem kaynaklarının bile self-servis olarak birkaç tıklamayla dakikalar içinde sağlanabilmesidir."
+      },
+      {
+        "id": 32,
+        "soru": "Bulut bilişim bağlamında 'Küresel Ölçek' neyi ifade eder?",
+        "cevap": "Doğru miktarda BT kaynağının (bilgi işlem gücü, depolama, bant genişliği vb.) ihtiyaç duyulan anda ve istenen coğrafi konumda sunulabilmesidir."
+      },
+      {
+        "id": 33,
+        "soru": "Bulut bilişim BT ekiplerini hangi 'Verimlilik' engelinden kurtarır?",
+        "cevap": "Donanım ayarlama ve yazılımlara düzeltme eki uygulama gibi zaman alan rutin BT yönetim görevlerinden kurtarır."
+      },
+      {
+        "id": 34,
+        "soru": "Bulut bilişimde 'Güvenilirlik' teknik olarak nasıl sağlanır?",
+        "cevap": "Verilerin, bulut sağlayıcısının ağındaki birden fazla yedekli konumda yansıtılması (replike edilmesi) sayesinde sağlanır."
+      }
+    ],
+    "5_bulut_dagitim_ve_hizmet_modelleri": [
+      {
+        "id": 35,
+        "soru": "Genel Bulut (Public Cloud) modelinin mülkiyeti kime aittir ve nasıl erişilir?",
+        "cevap": "Üçüncü taraf bulut hizmeti sağlayıcılarına aittir. Hizmetlere erişmek ve hesabı yönetmek için bir web tarayıcısı kullanılır."
+      },
+      {
+        "id": 36,
+        "soru": "Özel Bulut (Private Cloud) nedir ve altyapısı nerede barındırılabilir?",
+        "cevap": "Bulut kaynaklarının özel olarak tek bir işletme tarafından kullanılmasıdır. Şirketin kendi veri merkezinde fiziksel olarak bulunabilir veya üçüncü tarafça barındırılabilir."
+      },
+      {
+        "id": 37,
+        "soru": "Hibrit Bulut (Hybrid Cloud) işletmelere ne tür avantajlar sağlar?",
+        "cevap": "Genel ve özel bulutu birbirine bağlayarak veri taşınabilirliği, daha fazla dağıtım seçeneği, esneklik ve mevcut uyumluluğun iyileştirilmesini sağlar."
+      },
+      {
+        "id": 38,
+        "soru": "Hizmet olarak Altyapı (IaaS) modelinde bulut sağlayıcısından neler kiralanır?",
+        "cevap": "Sunucular, sanal makineler (VM'ler), depolama, ağ ve işletim sistemleri kiralanır."
+      },
+      {
+        "id": 39,
+        "soru": "Hizmet olarak Platform (PaaS) modelinin temel amacı nedir?",
+        "cevap": "Geliştiricilerin temel altyapıyı (sunucu, ağ, veritabanı) yönetme endişesi duymadan web veya mobil uygulamaları hızla oluşturmasını sağlamaktır."
+      },
+      {
+        "id": 40,
+        "soru": "Hizmet olarak Yazılım (SaaS) modelinde bakım, yükseltme ve yamaları kim yönetir?",
+        "cevap": "Tamamen bulut hizmeti sağlayıcısı barındırır ve yönetir."
+      },
+      {
+        "id": 41,
+        "soru": "Sunucusuz Bilişim (Serverless Computing) modelinin ayırt edici özellikleri nelerdir?",
+        "cevap": "Olay temellidir (event-driven), yüksek düzeyde ölçeklenebilirdir ve yalnızca belirli bir işluk veya tetikleyici çalıştığında kaynak tüketir."
+      },
+      {
+        "id": 42,
+        "soru": "Hizmet olarak Modeller (MaaS) ne tür bir teslim yöntemi sunar?",
+        "cevap": "Makine öğrenimi modellerini basitleştirilmiş uygulama dağıtımı için sunucusuz API'ler olarak sunar."
+      }
+    ],
+    "6_siber_guvenlik_ve_koruma_araclari": [
+      {
+        "id": 43,
+        "soru": "Microsoft'un siber güvenliği sürekli izleyen özel ekibi kaç uzmandan oluşmaktadır?",
+        "cevap": "10.000'den fazla (SecOps kısmında 8.500'den fazla olarak belirtilen) özel siber güvenlik uzmanından oluşur."
+      },
+      {
+        "id": 44,
+        "soru": "Microsoft'un siber tehditleri engellemek için günlük sentezlediği güvenlik sinyali miktarı nedir?",
+        "cevap": "Günlük 78 trilyon güvenlik sinyali sentezlenmektedir."
+      },
+      {
+        "id": 45,
+        "soru": "Microsoft güvenlik alanına önümüzdeki beş yıl içinde ne kadarlık bir yatırım yapmayı planlamaktadır?",
+        "cevap": "20 milyar ABD doları yatırım yapmayı planlamaktadır."
+      },
+      {
+        "id": 46,
+        "soru": "Azure Key Vault hizmetinin temel görevi nedir?",
+        "cevap": "Bulut uygulamaları tarafından kullanılan şifreleme anahtarlarını ve diğer gizli sırları korumaktır."
+      },
+      {
+        "id": 47,
+        "soru": "Dağıtılmış hizmet engelleme saldırılarını önlemek için hangi Azure aracı kullanılır?",
+        "cevap": "Azure DDoS Koruması."
+      },
+      {
+        "id": 48,
+        "soru": "Azure Güvenlik Duvarı (Azure Firewall) hangi gelişmiş özellikleri sunar?",
+        "cevap": "Gerçek zamanlı tehdit uyarıları, ölçeklenebilir güvenlik duvarı, TLS denetimi ve merkezi güvenlik yönetimi."
+      },
+      {
+        "id": 49,
+        "soru": "Bulut için Microsoft Defender (Microsoft Defender for Cloud) neleri korur?",
+        "cevap": "Çoklu bulut ve hibrit ortamları kod aşamasından buluta kadar kapsamlı güvenlik ile korur."
+      },
+      {
+        "id": 50,
+        "soru": "Azure sunucularının içinde varsayılan olarak bulunan ve FIPS 140-3 gereksinimlerini karşılayan donanımsal yonganın adı nedir?",
+        "cevap": "Azure Tümleştirilmiş HSM (Hardware Security Module)."
+      },
+      {
+        "id": 51,
+        "soru": "Verilerin ve kodların bulutta 'kullanım aşamasındayken' korunmasını sağlayan teknoloji ailesi hangisidir?",
+        "cevap": "Azure Gizli Bilgi İşlem (Azure Confidential Computing)."
+      }
+    ],
+    "7_iyi_tasarlanmis_mimari_cercevesi_well_architected": [
+      {
+        "id": 52,
+        "soru": "Azure İyi Tasarlanmış Mimari Çerçevesi (Well-Architected Framework) kapsamında tanımlanan 5 temel unsur nedir?",
+        "cevap": "Güvenilirlik, maliyet optimizasyonu, operasyonel mükemmellik, performans verimliliği ve güvenlik."
+      },
+      {
+        "id": 53,
+        "soru": "İyi Tasarlanmış Mimari Çerçevesi iş yüklerini oluştururken yararlanılan Microsoft kaynakları hangileridir?",
+        "cevap": "Azure Danışmanı (Azure Advisor) ve Azure Mimari Merkezi."
+      },
+      {
+        "id": 54,
+        "soru": "Bulut tabanlı 'Güvenilirlik' (Reliability) unsurunun temel felsefesi nedir?",
+        "cevap": "Arızaların kaçınılmaz olduğunu kabul ederek, bileşen arızası veya fidye yazılımı gibi olaylarda yüksek kullanılabilirlik ve hızlı kurtarma ile etkiyi en aza indirmektir."
+      },
+      {
+        "id": 55,
+        "soru": "Maliyet Optimizasyonu unsuru iş yükü tasarlarken neyi dengelemeyi amaçlar?",
+        "cevap": "Gereksiz harcamaları azaltmayı, iş hedefleri ile bütçe gereksinimlerini dengeleyerek ekonomik verimlilik sağlamayı amaçlar."
+      },
+      {
+        "id": 56,
+        "soru": "Operasyonel Mükemmellik (Operational Excellence) unsuru kapsamında 'izleme ve tanılama' neden hayati önem taşır?",
+        "cevap": "Arızaların nerede ve ne zaman meydana geldiğini hızlıca tespit etmek için gerekli görünürlüğü ve tam gözlemlenebilirliği sağladığı için."
+      },
+      {
+        "id": 57,
+        "soru": "Performans Verimliliği unsuru ölçeklendirme yaparken neyin dengesini gözetir?",
+        "cevap": "Kapasiteyi isteğe göre dinamik ayarlarken performans ile maliyet arasındaki dengeyi gözetir."
+      }
+    ],
+    "8_buluta_gecis_ve_diger_cozumler": [
+      {
+        "id": 58,
+        "soru": "İş yüklerini Azure'a geçirirken maliyet tasarrufu ve verimlilik sağlayan rehber merkezin adı nedir?",
+        "cevap": "Azure Geçiş ve Modernizasyon Merkezi (Azure Migration and Modernization Center)."
+      },
+      {
+        "id": 59,
+        "soru": "Bulut maliyeti iyileştirmesini destekleyen ve bulut iş değerini en üst düzeye çıkaran uygulamalar bütününe ne ad verilir?",
+        "cevap": "Azure üzerinde FinOps uygulamaları."
+      },
+      {
+        "id": 60,
+        "soru": "Gezegenin içinde ve dışında bulut olanaklarını uzaya genişleten Azure çözümünün adı nedir?",
+        "cevap": "Uzay için Azure (Azure Space)."
+      },
+      {
+        "id": 61,
+        "soru": "Dünyanın ilk tam yığın kuantum bulut ekosistemini deneyimleten Azure hizmet alanı hangisidir?",
+        "cevap": "Kuantum Bilişim (Azure Quantum)."
+      }
+    ]
+  }
+}
