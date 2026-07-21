@@ -14,7 +14,7 @@ create_table()
 
 # İlk çalıştırmada veriler veritabanına yüklenir.
 # Veri yüklendikten sonra tekrar çalıştırılmaması için yoruma alınabilir.
-ingest_data()
+# ingest_data()
 
 if __name__ == "__main__":
     """
