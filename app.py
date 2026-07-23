@@ -7,15 +7,28 @@ Kullanıcının sorularını alır, RAG sistemine gönderir,
 üretilen cevabı ve kullanılan kaynakları görüntüler.
 """
 
+import time
 import streamlit as st
-from src.database import get_connection
-from src.generator import generate_answer
+
 
 # Streamlit sayfa ayarları
 st.set_page_config(
     page_title="Local RAG Assistant",
     page_icon="🤖"
 )
+
+loading = st.empty()
+
+with loading.container():
+    st.title("🤖 Local RAG Assistant")
+    st.info("⏳ Yapay zeka modeli yükleniyor...\n\nBu işlem yalnızca ilk açılışta birkaç saniye sürebilir.")
+
+start = time.time()
+
+from src.database import get_connection
+from src.generator import generate_answer
+
+loading.empty()
 
 st.title("🤖 Local RAG Assistant")
 
