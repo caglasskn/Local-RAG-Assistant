@@ -6,6 +6,13 @@
   <img src="images/demo.png" alt="Local RAG Assistant" width="900">
 </p>
 
+<p align="center">
+  <video src="demo_video.mp4" width="900" controls>
+    Tarayıcınız video etiketini desteklemiyor.
+  </video>
+</p>
+
+
 Bu proje, kullanıcı tarafından sorulan sorulara yerel bir bilgi tabanını kullanarak cevap üreten bir **Retrieval-Augmented Generation (RAG)** uygulamasıdır.
 
 Sistem; kullanıcı sorusunu embedding'e dönüştürür, SQLite veritabanındaki en ilgili dökümanları cosine similarity yöntemiyle bulur ve elde edilen bağlamı (context) kullanarak **Phi-4 Mini** modeli ile cevap üretir.
