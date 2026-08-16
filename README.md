@@ -6,12 +6,7 @@
   <img src="images/demo.png" alt="Local RAG Assistant" width="900">
 </p>
 
-<p align="center">
-  <video src="demo_video.mp4" width="900" controls>
-    Tarayıcınız video etiketini desteklemiyor.
-  </video>
-</p>
-
+📺 Projenin çalışma mantığını ve kullanımını görmek için **[Demo Videoyu İzleyin](demo_video.mp4)**.
 
 Bu proje, kullanıcı tarafından sorulan sorulara yerel bir bilgi tabanını kullanarak cevap üreten bir **Retrieval-Augmented Generation (RAG)** uygulamasıdır.
 
